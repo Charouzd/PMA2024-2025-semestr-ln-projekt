@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LitomiciSystem</string>
+    <string name="enter_username">zadejte svůj mail</string>
+    <string name="enter_psswd">Zadejte své heslo</string>
+    <string name="profile_Headline">Profil a jeho informace</string>
+    <string name="gdpr_agreement">Souhlasím s uchováním s zpracováním svých osobních dat podle zásad GDPR</string>
+    <string name="change_data">Změnit údaje</string>
+    <string name="Save_data">Uložit údaje</string>
+    <string name="logo_navbar">Logo TOM Litomíci</string>
+    <string name="icon_profile">Profile ikona</string>
+    <string name="icon_events">Aktivity ikona</string>
+    <string name="icon_logout">odhlašení ikona</string>
+    <string name="events_Headline">Zápis a informace o akcích</string>
+    <string name="intro_phrase">Vítejte v aplikaci Litocamp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Barva pozadí -->
+    <solid android:color="@color/BGfog" />
+
+
+    <!-- Okraj -->
+    <stroke
+        android:width="3px"
+        android:color="@color/BGblue" />
+</shape>

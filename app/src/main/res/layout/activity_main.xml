@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Sekce s logem -->
+
+    <LinearLayout
+        android:id="@+id/logoSection"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/BGblue"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:contentDescription="logo systému"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+    <!-- Sekce s formulářem -->
+
+
+    <LinearLayout
+        android:id="@+id/formSection"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/BGblue"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoSection">
+
+
+        <!-- Formulář zarovnaný nahoru a uprostřed -->
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="377dp"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/rounded_corner_white"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="text"
+                android:background="@drawable/rounded_corner_white"
+                android:hint="@string/enter_username"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_corner_white"
+                android:inputType="textPassword"
+                android:hint="@string/enter_psswd"
+                android:padding="12dp" />
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Přihlásit" />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:gravity="center"
+               >
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Registrovat"/>
+
+           </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

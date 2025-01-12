@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/M_name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Jmeno"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:focusable="false"
+        android:cursorVisible="false"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/M_lastname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Příjmení"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:focusable="false"
+        android:cursorVisible="false"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/M_name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/M_born_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datum Narození"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/M_born"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/M_name" />
+
+    <EditText
+        android:id="@+id/M_born"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:ems="10"
+        android:padding="10dp"
+        android:inputType="none"
+        android:text="01/01/2025"
+        android:textColor="@android:color/black"
+        android:focusable="false"
+        android:cursorVisible="false"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/M_born_header"
+        app:layout_constraintTop_toBottomOf="@+id/M_lastname" />
+
+    <TextView
+        android:id="@+id/M_health"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zdravotní problémy:\nžádné nemá"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/M_born" />
+
+    <CheckBox
+        android:id="@+id/M_GDPR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:enabled="false"
+        android:text="Souhlasím s pořiováním fotografie mé osoby, pro veškeré propagační materiály, jak v tištěné, tak v elektronické podobě (např. webové
+    stránky, FB, tiskoviny). Taková fotografie může být změněna, použita jako součást díla souborného nebo může být
+použita pouze její část."
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/M_health" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

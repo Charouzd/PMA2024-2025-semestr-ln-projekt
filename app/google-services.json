@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "287761481752",
+    "project_id": "litocampfirebase",
+    "storage_bucket": "litocampfirebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287761481752:android:831e01952b7d0bf0f0436d",
+        "android_client_info": {
+          "package_name": "com.example.litomicisystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS1tHCHTiky8gKPcvcce306RLodBmfZvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
