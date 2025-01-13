@@ -29,7 +29,7 @@
 <p>
     Návrh databáze je klíčovým prvkem aplikace, který zajišťuje efektivní a bezpečné ukládání dat. Struktura databáze je navržena s ohledem na potřeby uživatelů a optimalizována pro rychlý přístup k informacím. Obrázek níže ilustruje základní schéma databáze, které zahrnuje hlavní tabulky a jejich vztahy.
 </p>
-<img src="main/dbSchea.png" alt="Database Schema">
+<img src="dbSchema.png" alt="Database Schema">
 <h2>Návod k Ovládání</h2>
 
 <h3>1) Funkce</h3>
